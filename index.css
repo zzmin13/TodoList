@@ -60,6 +60,7 @@ button{
 
 .showing{
     display: block;
+    animation: fadeIn 0.5s linear;
 }
 
 .containerBox{
@@ -98,3 +99,6 @@ button{
     padding-right: 10px;
 }
 
+.js-toDoList li{
+    animation: fadeIn 0.5s linear;
+}
