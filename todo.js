@@ -38,6 +38,7 @@ function paintToDo(text){
     li.appendChild(delBtn);
     li.appendChild(span);
     toDoList.appendChild(li);
+    delBtn.classList.add("delBtn");
 
     li.id = newId; // li에게 id를 부여
 
