@@ -1,0 +1,100 @@
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;
+    text-shadow: 3px 3px 3px #424242;
+
+}
+input{
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid white;
+
+}
+
+input::placeholder{
+    color: white;
+}
+
+input:focus {
+    outline:none;
+}
+.js-form > input{
+    width: 500px;
+    height: 80px;
+    font-size: 50px;
+}
+
+/* .js-toDoForm > input{
+    display: none;
+} */
+
+button{
+    border-radius: 25px;
+    border-style: none;
+    text-shadow: none;
+    background-color: transparent; /* background-color: rgba( 255, 255, 255, 0 ) */
+}
+
+
+.js-toDoList{
+    list-style: none;
+    padding-left: 0;
+    font-size: 20px;
+}
+
+.js-toDoList > li{
+    margin-bottom: 10px;
+}
+
+
+
+.js-form,
+.js-greetings,
+.js-toDoForm{
+    display: none;
+}
+
+.showing{
+    display: block;
+}
+
+.containerBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.js-clock > h1{
+    font-size: 6.250em;
+    /* font-size:100px; */
+    
+    
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.bgImage{
+    position : absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn 0.5s linear;
+}
+
+.js-weather{
+    align-self: flex-end;
+    padding-right: 10px;
+}
+
